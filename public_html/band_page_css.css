@@ -1,0 +1,58 @@
+
+.navbar-nav{
+    flex-direction: row;
+    bottom: -10px;
+    position: absolute;
+}
+.navbar-nav li{
+    margin-right: 70px;
+}
+
+.navbar a{
+    text-decoration: none !important;
+    
+}
+
+.navbar li:hover{
+    background-color:  #e0a800;
+    padding: 10px;
+}
+
+.navbar{
+    background-color: white;
+    height: 50px;
+    width: 100%;
+}
+
+body,html{
+    height: 2000px;
+    margin: 0;
+    background-image: url('images/fondoplumcake.jpg');
+    background-position: center;
+    background-repeat: space;
+    background-size: cover;
+}
+
+.logo, img{
+  height: 35%;
+  text-align: center;
+  padding-top:20px;
+  
+}
+
+footer,h1{
+    margin-left: 20%;
+    color: #ffffff;
+}
+
+footer{
+    height: 300px;
+    position: relative;
+    top:50%;
+    margin: 0;
+    background-image: url('images/concert.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
