@@ -28,9 +28,9 @@ body,html{
     height: 2000px;
     margin: 0;
     background-image: url('images/fondoplumcake.jpg');
-    background-position: center;
-    background-repeat: space;
-    background-size: cover;
+    background-position:top;
+    background-repeat:  repeat;
+    background-size:  contain;
 }
 
 .logo, img{
@@ -38,6 +38,11 @@ body,html{
   text-align: center;
   padding-top:20px;
   
+}
+
+.logo2, img{
+  height: 5%;
+  text-align: center; 
 }
 
 footer,h1{
